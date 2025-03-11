@@ -17,11 +17,11 @@ h3 {
 }
 
 h3.alex {
-    color: #67a5ff;
+    color: #e55c5c;
     right: calc(50vw + 40px);
 }
 
 h3.caleb {
-    color: #e55c5c;
+    color: #67a5ff;
     left: calc(50vw + 40px);
 }
