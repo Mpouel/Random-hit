@@ -21,14 +21,17 @@ h3 {
     position: fixed;
     top: 0px;
     margin-top: var(--pos-hght);
+    text-shadow: 2px 2px 7px;
 }
 
 h3.alex {
     color: var(--clr-blue);
     right: var(--pos-dist);
+    text-shadow: var(--clr-blue);
 }
 
 h3.caleb {
     color: var(--clr-red);
     left: var(--pos-dist);
+    text-shadow: var(--clr-red);
 }
