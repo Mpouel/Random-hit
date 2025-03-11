@@ -1,3 +1,10 @@
+:root {
+    --clr-red:  #e55c5c;
+    --clr-blue: #67a5ff;
+    --pos-dist: 56vw;
+    --pos-hght: 1.6vw; 
+}
+
 html body {
     margin: 0px;
     padding: 0px; 
@@ -13,15 +20,15 @@ iframe {
 h3 {
     position: fixed;
     top: 0px;
-    margin-top: 8px;
+    margin-top: var(--pos-hght);
 }
 
 h3.alex {
-    color: #e55c5c;
-    right: calc(50vw + 40px);
+    color: var(--clr-blue);
+    right: var(--pos-dist);
 }
 
 h3.caleb {
-    color: #67a5ff;
-    left: calc(50vw + 40px);
+    color: var(--clr-red);
+    left: var(--pos-dist);
 }
