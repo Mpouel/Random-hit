@@ -26,11 +26,11 @@ h3 {
 h3.alex {
     color: var(--clr-blue);
     right: var(--pos-dist);
-    text-shadow: 2px 2px 7px var(--clr-blue);
+    text-shadow: 0px 0px 2px var(--clr-blue);
 }
 
 h3.caleb {
     color: var(--clr-red);
     left: var(--pos-dist);
-    text-shadow: 2px 2px 7px var(--clr-red);
+    text-shadow: 0px 0px 2px var(--clr-red);
 }
