@@ -1,0 +1,28 @@
+html body {
+    margin: 0px;
+    padding: 0px; 
+    overflow: hidden;
+}
+
+iframe {
+    border: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+h3 {
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    margin-top: 8px;
+}
+
+h3.alex {
+    color: #67a5ff;
+    right: calc(50vw + 40px);
+}
+
+h3.caleb {
+    color: #e55c5c;
+    left: calc(50vw + 40px);
+}
