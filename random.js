@@ -4,7 +4,7 @@ const iframe = document.querySelector("iframe")
 
 iframe.addEventListener('keydown', function(e) {
     const now = new Date().getTime();
-    const time = now - last;
+    const time = Number(now - last);
     
     if ((time < Cooldown) && e.key === 'ArrowUp') {
         e.preventDefault();
