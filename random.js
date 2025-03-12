@@ -2,7 +2,7 @@ let last = 0;
 const Cooldown = 395;
 const iframe = document.querySelector("iframe")
 
-iframe.addEventListener('keydown', function(e) {
+iframe.document.addEventListener('keydown', function(e) {
     const now = new Date().getTime();
     const time = Number(now - last);
     
